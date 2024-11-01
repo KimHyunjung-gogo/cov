@@ -50,7 +50,7 @@ if uploaded_file is not None:
         ).add_to(m)
     
     # Streamlit에 Folium 지도 표시
-    st.title("2. 5G Coverage Hole DU MAP")
+    st.title("2. 5G Coverage Hole DU MAP__")
     st.write("5G 커버리지 홀이 0.3 이상일 때 빨간색 마커로 표시됩니다.")
     st_folium(m)
 
