@@ -74,9 +74,9 @@ from dotenv import load_dotenv
 import os
 
 # Load OpenAI API Key from .env file
-# load_dotenv()
-# openai.api_key = os.getenv("OPENAI_API_KEY")
-openai.api_key = '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'
+load_dotenv("openai.env")
+openai.api_key = os.getenv("OPENAI_API_KEY")
+# openai.api_key = os.getenv("openai.env")
 st.title("3.ChatGPT와 대화하기")
 
 # 대화를 저장할 리스트 초기화
